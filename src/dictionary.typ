@@ -28,6 +28,7 @@
 #let txt-supplement-formula = linguify("supplement-formula")
 #let txt-list-of-tables = linguify("list-of-tables")
 #let txt-literature-and-bibliography = linguify("literature-and-bibliography")
+#let txt-timeplan = linguify("timeplan")
 #let txt-list-of-attachements = linguify("list-of-attachements")
 
 // Other
