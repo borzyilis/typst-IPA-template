@@ -1,24 +1,17 @@
 #let abbreviations() = (
+  // minimal term
   (
-    key: "repo-vorlage",
-    short: "aio-studi-and-thesis",
-    plural: "",
-    long: "Repository der aktuellen Typst-Vorlage",
-    longplural: "",
-    desc: [
-      #link("https://github.com/fuchs-fabian/typst-template-aio-studi-and-thesis")
-    ],
-    group: "",
+    key: "kuleuven",
+    short: "KU Leuven",
   ),
   (
-    key: "",
-    short: "",
-    plural: "",
-    long: "",
-    longplural: "",
-    desc: [
-        
+    key: "oidc",
+    short: "OIDC",
+    long: "OpenID Connect",
+    description: [
+      OpenID is an open standard and decentralized authentication protocol promoted by the non-profit
+      #link("https://en.wikipedia.org/wiki/OpenID#OpenID_Foundation")[OpenID Foundation].
     ],
-    group: "",
+    group: "Acronyms",
   ),
 )
