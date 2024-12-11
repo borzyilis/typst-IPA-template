@@ -1,7 +1,7 @@
 #import "../../../lib.typ": *
 
 #let organisation() = [
-  == Projektaufbauorganisation
+  = Projektaufbauorganisation
 
   #figure(
     image("/typst-IPA-template/src/images/organigram.svg"),
@@ -21,7 +21,7 @@
 
     [Kandidat],
     [Martin Jaskelevic],
-    [Die Anforderungen in der Aufgabenstellung #todo("find out how to link this shit to the aufgabestellung, probably with @aufgabestellung")
+    [Die Anforderungen in der Aufgabenstellung
       werden innerhalb der gegebenen Zeit vollständig
       und korrekt erfüllt und umgesetzt. Die volle
       Verantwortung wird übernommen
@@ -35,11 +35,9 @@
     [Sandro Schwager/ Moussa Faye],
     [Bespricht die Arbeit, die gemacht werden muss, mit dem Stakeholder und erstellt anhand von den Anforderungen eine Aufgabestellung. Garantiert, dass der Kanidat arbeiten kann und beurteilt die erzielten Resultate der Arbeit. Ist verantwortlich für einen reibungslosen Ablauf der IPA],
 
-    [Hauptexperte], [Jonas Müller], [#todo("bla")],
+    [Hauptexperte], [Jonas Müller], [-],
     [Nebenexperte],
     [Jonas Müller],
     [Verantwortlich für die korrekte Protokollierung der Präsentation, der Demo und des Fachgesprächs],
   )
-
-  Personen/Rollen/Aufgaben/Verantwortung
 ]

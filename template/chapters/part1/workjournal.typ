@@ -122,8 +122,8 @@
 
   #pagebreak()
 
-  == Tag 4, Dienstag, 19.11.2024
   #let journal_data_day4 = (
+    ("Transaktionsliste", "4H", "4H"),
     ("Transaktions-Detail Ansicht implementieren", "8H", "8H"),
   )
 
@@ -131,248 +131,328 @@
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  - Fortschritte bei der Transaktions-Detail Ansicht erzielt
+  - Fertig mit der Implementierung von Transaktionsliste geworden
+  - Angefangen mit der Transaktions-Detail Ansicht und die initiale Version erstellt
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  - Viel Zeit für Branching und Konfliktlösungen aufgewendet
+
+  Viel Zeit für Branching und Konfliktlösungen aufgewendet
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
 
-  #heading(outlined: false, numbering: none)[
-    #text(size: 13pt, weight: "bold")[Reflexion]]
-  Ich musste zahlreiche Konflikte im Zusammenhang mit Branching lösen. Das war lehrreich, aber zeitaufwendig. In Zukunft werde ich sicherstellen, dass ich die richtige Grundlage für Branches wähle, um unnötige Konflikte zu vermeiden.
+  Keine
+
+  #heading(outlined: false, numbering: none)[ #text(size: 13pt, weight: "bold")[Reflexion]]
+  Ich konnte heute, obwohl verspätet, da ich noch die Transaktionsliste fertig implementieren musste, mit der Implementierung anfangen und die initiale Version von Transaktions-Detail Ansicht erstellen. Ich musste zahlreiche Konflikte im Zusammenhang mit Branching lösen. Das war lehrreich, aber zeitaufwendig. In Zukunft werde ich sicherstellen, dass ich die richtige Grundlage für Branches wähle, um unnötige Konflikte zu vermeiden.
+
+  Das Problem ist, dass ich schon morgen mit der Implementierung von der Filterfunktionalität anfangen muss, aber das wird sehr wahrscheinlich nicht passieren, da ich noch viel zu tun bei der Implementierung von der Detailansicht habe.
+
 
   #pagebreak()
 
   == Tag 5, Mittwoch, 20.11.2024
-  #journal_table(journal_data_day)
+  #let journal_data_day5 = (
+    ("Transaktions-Detail Ansicht implementieren", "8H", "8H"),
+  )
+
+  #journal_table(journal_data_day5)
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  #todo[Ausfüllen]
+  - Die detaillierte Transaktions-Detail-Ansicht wurde erstellt, basierend auf den angepassten Komponenten der Desktop-Version für die mobile Version.
+  - Übersetzungen wurden aktualisiert.
+  - Routing und Navigation wurden angepasst.
+  - Skeletons für den Header der Detailseite wurden überarbeitet und verbessert.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  #todo[Ausfüllen]
+  - Sicherzustellen, dass die Modifikation der Skeletons für die Detailseite keine negativen Auswirkungen auf andere Seiten-Header hatte.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
 
-  #heading(outlined: false, numbering: none)[
-    #text(size: 13pt, weight: "bold")[Reflexion]]
-  #todo[Ausfüllen]
+  Keine
+
+  #heading(outlined: false, numbering: none)[ #text(size: 13pt, weight: "bold")[Reflexion]]
+  Heute war ein produktiver Tag, und ich konnte die Implementierung der Transaktions-Detail-Ansicht abschliessen. Ich glaube, dass ich schneller hätte fertig werden können, wenn die Anpassung der Skeletons nicht so zeitaufwendig gewesen wäre. Es ist ziemlich mühsam, die Skeletons perfekt auf den Inhalt abzustimmen, der geladen wird und die Skeletons ersetzt. Jetzt liege ich einen Tag hinter meinem Zeitplan, was bedeutet, dass ich in den nächsten Tagen aufholen muss.
+
 
   #pagebreak()
 
   == Tag 6, Montag, 25.11.2024
   #let journal_data_day6 = (
-    ("Transaktionsfilter implementieren", "8H", todo[Ausfüllen]),
+    ("Transaktionsfilter implementieren", "8H", "8H"),
   )
 
   #journal_table(journal_data_day6)
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  #todo[Ausfüllen]
+  - Verständnis des `useForm`-Hooks erarbeitet
+  - Relevante Daten zur Befüllung der Optionen für den Filter ausgelesen
+  - Erste Logik für die Übergabe von Daten an den Dialog entwickelt
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  #todo[Ausfüllen]
+  - Grosse Schwierigkeiten beim Verständnis des `useForm`-Hooks und seiner Implementierung
+  - Keine bestehenden Beispiele für ähnliche Filterlogik vorhanden
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
+  - Ich habe Sandro um Unterstützung gebeten, aber aufgrund der Release-Phase hatte er keine Zeit, mir zu helfen.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Reflexion]]
-  #todo[Ausfüllen]
+  Heute habe ich nur sehr wenig Fortschritte gemacht, da die meiste Zeit für das Verständnis des `useForm`-Hooks und die Implementierung der Filteransichten verwendet wurde. Da es keine Beispiele für diese Art von Filterlogik gibt und ich der Erste bin, der dieses in eAssets umsetzt, wusste ich nicht wie ich die Optionen weiter an den Dialog weitergeben kann. Ich werde versuchen, die Filterlogik morgen besser zu strukturieren und voranzukommen.
+
 
   #pagebreak()
 
-  == Tag 7, Montag, 26.11.2024
-  #journal_table(journal_data_day)
+  == Tag 7, Dienstag, 26.11.2024
+  #let journal_data_day7 = (
+    ("Transaktionsfilter implementieren", "8H", "8H"),
+  )
+  #journal_table(journal_data_day7)
+
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  #todo[Ausfüllen]
+  - Optionen ausgelesen und korrekt an das Formular als Optionen weitergegeben.
+  - Die Ansicht für den Dialog mit den benötigten Filtern erstellt und integriert.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  #todo[Ausfüllen]
+  - Optionen wurden versehentlich als Werte anstelle von Auswahlmöglichkeiten weitergegeben. Dadurch änderte sich die Liste der Optionen dynamisch mit der Auswahl der Werte, was zu inkonsistentem Verhalten führte.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
+  Sandro hat mir gezeigt, dass das Problem darin lag, dass ich den Optionen die Standardwerte zugewiesen hatte. Nachdem ich die Liste der Optionen explizit an die `options`-Eigenschaft der Dropdown-Komponente übergeben habe, funktionierte alles korrekt.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Reflexion]]
-  #todo[Ausfüllen]
+  Heute habe ich viel Zeit damit verschwendet, herauszufinden, warum sich die Liste der Optionen nach einer Auswahl verändert hat. Nachdem ich bereits zu viel Zeit mit diesem Problem verloren hatte, entschied ich mich, mich auf die Fertigstellung des gesamten Filterflusses zu konzentrieren und die verbleibenden Probleme später anzugehen.
+
+  Die Lösung des Problems war offensichtlich: Optionen und Werte klar zu trennen. Das Problem entstand, weil ich beim Übernehmen von Code aus verschiedenen Quellen die zugrunde liegende Logik nicht vollständig verstanden hatte.
+
+  Ich habe mich von dem komplexen Code einschüchtern lassen, aber letztendlich war er nur eine Wrapper-Schicht für einige UI-Komponenten. Das Problem bestand darin, dass Optionen und Werte im Grunde identisch waren, da `{field}` im Wesentlichen die `value`-Eigenschaft an die MultiSelect-Komponente gemappt hat. Deshalb wurden alle Optionen als ausgewählt angezeigt.
+
 
   #pagebreak()
 
-  == Tag 8, Dienstag, 27.11.2024
-  #journal_table(journal_data_day)
+  == Tag 8, Mittwoch, 27.11.2024
+  #let journal_data_day8 = (
+    ("Transaktionsfilter implementieren", "8H", "8H"),
+  )
+  #journal_table(journal_data_day8)
+
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  #todo[Ausfüllen]
+  - Optionen mit den Testdaten gefüllt
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  #todo[Ausfüllen]
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Reflexion]]
-  #todo[Ausfüllen]
+
+
 
   #pagebreak()
 
   == Tag 9, Montag, 02.12.2024
-  #let journal_data_day6 = (
-    ("Transaktionsfilter implementieren", "8H", todo[Ausfüllen]),
+  #let journal_data_day9 = (
+    ("Filterlogik verfeinern und implementieren", "6H", "6H"),
+    ("Expertenbesuch", "1.5H", "2H"),
   )
-  #journal_table(journal_data_day)
+
+  #journal_table(journal_data_day9)
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  #todo[Ausfüllen]
+  - Die Filterlogik wurde mit Unterstützung von ChatGPT umgesetzt, um Daten mit mehreren Optionen korrekt zu filtern.
+  - Implementierung in der Komponente verlagert, um Filterung vor der Übergabe an die `CustodyTransactionsList` durchzuführen.
+  - Negative Zahlen im Eingabefeld getestet und durch Nutzung einer aktualisierten Desktop-Version des Eingabefelds behoben.
+  - Konsistenzprüfung der mobilen Ansicht im Vergleich zur Desktop-Version durchgeführt.
+  - Diskussion mit dem PO über die Notwendigkeit bestimmter Filteroptionen, z. B. ISIN, und Bestätigung erhalten, dass diese für die mobile Ansicht nicht benötigt wird.
+  - Anfrage an Sandro gestellt, das aktualisierte Eingabefeld in den gemeinsamen Codebereich zu verschieben.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  #todo[Ausfüllen]
+  - Die initiale Implementierung der Filterlogik in der Gruppierungsfunktion war ineffizient und führte zu falschen Ergebnissen.
+  - Das Problem mit den negativen Zahlen erforderte zusätzliche Tests und Anpassungen.
+  - Es war notwendig, zwischen mobilen und Desktop-Funktionen zu unterscheiden und spezifische Anpassungen vorzunehmen.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
+  - ChatGPT wurde genutzt, um komplexe Filterlogik umzusetzen und die optimalen Strukturen für die Filterung zu finden.
+  - Unterstützung von Sandro bei der Analyse der Filterlogik und der Anpassung des Eingabefelds.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Reflexion]]
-  #todo[Ausfüllen]
+  Die heutige Arbeit war sehr lehrreich. Die ursprüngliche Implementierung der Filterlogik war ineffizient, und Sandros externer Blick war entscheidend, um eine bessere Lösung zu finden. Das Problem mit den negativen Zahlen zeigte, wie wichtig es ist, bestehende Komponenten zu überprüfen und gegebenenfalls anzupassen. Der Expertenbesuch war wertvoll, da er Schwächen in meiner Dokumentation und meinem Ansatz beim Beantworten von Fragen aufzeigte. Ich werde in Zukunft sicherstellen, dass meine Antworten präziser und klarer sind, um Missverständnisse zu vermeiden.
+
 
   #pagebreak()
 
   == Tag 10, Dienstag, 03.12.2024
-  #journal_table(journal_data_day)
+  #let journal_data_day10 = (
+    ("Filterlogik verfeinern und generisch umsetzen", "7.5H", "8H"),
+    ("Übersetzungen und Filterlabels anpassen", "1H", "0.5H"),
+  )
+
+  #journal_table(journal_data_day10)
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  #todo[Ausfüllen]
+  - Filterlabels angepasst und Übersetzungen aus der Desktop-Version übernommen.
+  - Generische Filterfunktion entwickelt, um sie für verschiedene Transaktionstypen wiederzuverwenden.
+  - Dynamische Attributauswahl in der Filterfunktion implementiert, um Unterschiede zwischen Cash- und Security-Transaktionen zu berücksichtigen.
+  - Strukturierung der generischen Filterlogik getestet und erfolgreich integriert.
+  - Filterlogik für `CashTransactionsTab` und `CustodyPositionsTransactions` dupliziert und angepasst.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  #todo[Ausfüllen]
+  - Schwierigkeiten beim Umgang mit TypeScript-Generics, insbesondere bei der Unterstützung verschiedener Datentypen.
+  - Die Auswahl der korrekten Attribute für unterschiedliche Transaktionstypen war komplex und erforderte zusätzliche Debugging-Zeit.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
+  - ChatGPT wurde verwendet, um die Implementierung der Generics zu unterstützen.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Reflexion]]
-  #todo[Ausfüllen]
+  Die Arbeit an der generischen Filterfunktion war anspruchsvoll, da ich keine Erfahrung mit Generics in TypeScript hatte. Durch die Nutzung von ChatGPT konnte ich einige der Herausforderungen lösen, obwohl es manchmal schwieriger war, die generierten Lösungen zu verstehen. Die dynamische Auswahl der Attribute für unterschiedliche Transaktionstypen war lehrreich und zeigte mir die Vorteile einer gut strukturierten, generischen Funktion. Ich habe viel über TypeScript und die Wiederverwendbarkeit von Code gelernt, was mir in zukünftigen Projekten helfen wird.
+
 
   #pagebreak()
 
   == Tag 11, Mittwoch, 04.12.2024
-  #journal_table(journal_data_day)
+  #let journal_data_day10 = (
+    ("Filterlogik verfeinern und generisch umsetzen", "7.5H", "8H"),
+    ("Übersetzungen und Filterlabels anpassen", "1H", "0.5H"),
+  )
+
+  #journal_table(journal_data_day10)
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  #todo[Ausfüllen]
+  - Filterlabels angepasst und Übersetzungen aus der Desktop-Version übernommen.
+  - Generische Filterfunktion entwickelt, um sie für verschiedene Transaktionstypen wiederzuverwenden.
+  - Dynamische Attributauswahl in der Filterfunktion implementiert, um Unterschiede zwischen Cash- und Security-Transaktionen zu berücksichtigen.
+  - Strukturierung der generischen Filterlogik getestet und erfolgreich integriert.
+  - Filterlogik für `CashTransactionsTab` und `CustodyPositionsTransactions` dupliziert und angepasst.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  #todo[Ausfüllen]
+  - Schwierigkeiten beim Umgang mit TypeScript-Generics, insbesondere bei der Unterstützung verschiedener Datentypen.
+  - Die Auswahl der korrekten Attribute für unterschiedliche Transaktionstypen war komplex und erforderte zusätzliche Debugging-Zeit.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
+  - ChatGPT wurde verwendet, um die Implementierung der Generics zu unterstützen.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Reflexion]]
-  #todo[Ausfüllen]
+  Die Arbeit an der generischen Filterfunktion war anspruchsvoll, da ich keine Erfahrung mit Generics in TypeScript hatte. Durch die Nutzung von ChatGPT konnte ich einige der Herausforderungen lösen, obwohl es manchmal schwieriger war, die generierten Lösungen zu verstehen. Die dynamische Auswahl der Attribute für unterschiedliche Transaktionstypen war lehrreich und zeigte mir die Vorteile einer gut strukturierten, generischen Funktion. Ich habe viel über TypeScript und die Wiederverwendbarkeit von Code gelernt, was mir in zukünftigen Projekten helfen wird.
+
 
   #pagebreak()
 
   == Tag 12, Montag, 09.12.2024
-  #let journal_data_12 = (
-    ([Filter für die Cash Account Seite integrieren], [1H], [#todo[Ausfüllen]]),
-    ([Filter für die Custody Transactions Detail Seite integrieren], [1H], [#todo[Ausfüllen]]),
+  #let journal_data_day11 = (
+    ("Filterlogik auf `CashTransactionsTab` erweitern", "4H", "4H"),
+    ("Filterlogik auf Asset-Detailansicht und Cash Accounts anwenden", "4H", "4H"),
   )
-  #journal_table(journal_data_12)
+
+  #journal_table(journal_data_day11)
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  #todo[Ausfüllen]
+  - Filter auf `CashTransactionsTab` implementiert und getestet.
+  - Attribute für unterschiedliche Transaktionstypen mit TypeScript korrekt zugeordnet, um Fehler zu vermeiden.
+  - Filterlogik für Asset-Detailansicht übernommen und angepasst.
+  - Begonnen mit der Vorbereitung und Durchführung von Cypress-Tests zur Validierung der Funktionalität.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  #todo[Ausfüllen]
+  - Schwierigkeiten bei der korrekten Typzuweisung, da Transaktionen als unterschiedliche Typen (`SecurityTransaction` und `CashTransaction`) übergeben werden.
+  - Reset-Funktionalität des Filters funktionierte nicht wie erwartet und erforderte alternative Ansätze, blieb jedoch unvollständig.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
+  - Rücksprache mit Sandro zur Aufteilung der Komponenten und deren ursprünglicher Implementierung.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Reflexion]]
-  #todo[Ausfüllen]
+  Die Erweiterung der Filterlogik auf `CashTransactionsTab` und die Asset-Detailansicht war erfolgreich, trotz der Herausforderungen bei der Typisierung. Die Erkenntnis, dass TypeScript bei komplexen Typen leicht "den Überblick verliert", hat mir gezeigt, wie wichtig korrektes Casting ist.
+
+  Die Entscheidung, die Reset-Funktionalität vorerst zurückzustellen, war schwierig, aber notwendig, um den Zeitplan einzuhalten. Der Beginn der Cypress-Tests markiert einen wichtigen Meilenstein, um die Qualität der Implementierung sicherzustellen. Ich werde morgen den Fokus darauf legen, die Tests umfassend abzuschliessen.
 
   #pagebreak()
 
   == Tag 12, Dienstag, 10.12.2024
-  #let journal_data_12 = (
-    ([Tests für Filter functionalität erstellen], [1H], [#todo[Ausfüllen]]),
-    ([Filter für die Custody Transactions Detail Seite integrieren], [1H], [#todo[Ausfüllen]]),
+  #let journal_data_day12 = (
+    ("Tests für Transaktionslisten, Detailansicht und Filterfunktionen erstellen", "6H", "6H"),
+    ("Debugging der Transaktionsdetailansicht", "2H", "2H"),
   )
-  #journal_table(journal_data_12)
+
+  #journal_table(journal_data_day12)
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  #todo[Ausfüllen]
+  - Begonnen mit der Erstellung eines Test-Suites für alle drei User Stories.
+  - Tests für die Transaktionslisten und Filterfunktionen erfolgreich implementiert.
+  - Validierung der Filterlogik durchgeführt und Funktionalität bestätigt.
+  - Debugging der Transaktionsdetailansicht durchgeführt, da Tests mit Cypress fehlschlugen.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  #todo[Ausfüllen]
+  - Die Navigation von der Transaktionsliste zur Detailansicht funktionierte in Cypress-Tests nicht wie erwartet.
+  - Schwierigkeiten bei der Konfiguration der Mock-Daten für den Test der Transaktionsdetailansicht.
+  - Die Ausführung der Cypress-Tests in der UI nahm viel Zeit in Anspruch, was zu langen Wartezeiten bei der Anpassung und erneuten Ausführung der Tests führte.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
+  - Orientierung an bestehenden Testfällen aus der Desktop-Version, um die Struktur und Logik der Tests zu verbessern.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Reflexion]]
-  #todo[Ausfüllen]
+  Heute konnte ich wesentliche Fortschritte bei der Erstellung der Tests erzielen. Die Filter- und Transaktionslisten-Tests waren erfolgreich, was zeigt, dass diese Komponenten korrekt funktionieren. Die Transaktionsdetailansicht stellte jedoch ein Problem dar, da die Tests in Cypress fehlschlugen. Die Orientierung an bestehenden Tests war hilfreich, um die Anforderungen und Logik besser zu verstehen. Die langen Wartezeiten durch die Ausführung der Cypress-Tests waren frustrierend, aber ich habe erkannt, wie wichtig eine effiziente Testumgebung ist, um Iterationen zu beschleunigen.
+
 
   #pagebreak()
 
-  == Tag 12, Mittwoch, 11.12.2024
-  #let journal_data_12 = (
-    ([Tests für die detalierten Ansichten erstellen], [1H], [#todo[Ausfüllen]]),
-    ([Dokumentation fertigstellen], [4H], [#todo[Ausfüllen]]),
+  == Tag 13, Mittwoch, 11.12.2024
+  #let journal_data_day13 = (
+    ("Dokumentation schreiben und anpassen", "14H", "8H"),
   )
-  #journal_table(journal_data_12)
+
+  #journal_table(journal_data_day13)
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Ausgeführte Arbeiten]]
-  #todo[Ausfüllen]
+  - Den gesamten Tag mit dem Schreiben und Anpassen der Dokumentation verbracht.
+  - Alle vorherigen Einträge überprüft und sprachlich sowie inhaltlich überarbeitet.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Herausforderungen]]
-  #todo[Ausfüllen]
+  - Die Konsistenz zwischen den Einträgen sicherzustellen, war zeitaufwendig.
+  - Schwierigkeiten bei der sprachlichen Vereinheitlichung ohne den Inhalt zu verändern.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Beanspruchte Hilfestellungen]]
-  #todo[Ausfüllen]
+  - Keine direkte Hilfe beansprucht, aber gelegentlich auf vorherige Dokumentationen und Stilvorlagen zurückgegriffen.
 
   #heading(outlined: false, numbering: none)[
     #text(size: 13pt, weight: "bold")[Reflexion]]
-  #todo[Ausfüllen]
+  Der Tag war intensiv, aber produktiv. Ich habe alle Einträge der Dokumentation geprüft und sichergestellt, dass sie konsistent, logisch und sprachlich korrekt sind. Die Herausforderung bestand darin, präzise zu sein und gleichzeitig den Inhalt klar und verständlich zu halten. Ich bin zufrieden mit dem Ergebnis, da die Dokumentation jetzt einen professionellen und vollständigen Eindruck macht.
+
 
   #pagebreak()
 ]

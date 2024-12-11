@@ -60,5 +60,74 @@
   - Erstellung von #glspl("e2e") mit Cypress für die Transaktionsliste, die Detailansicht und die Filterfunktionalität.
   - Durchführung manueller Tests zur Überprüfung der visuellen Konsistenz und Benutzerfreundlichkeit.
 
-  #todo("Tabelle erstellen für automatisierte und manuelle tests")
+  #pagebreak()
+
+  #table(
+    columns: (1fr, 2fr, 2fr, 6fr),
+    stroke: none,
+    fill: (x, y) => if y == 0 { gray } else { none },
+    align: (x, y) => if y == 0 { center } else { left },
+    table.header(
+      text(size: 14pt, weight: "bold")[*ID*],
+      text(size: 14pt, weight: "bold")[*Testtyp*],
+      text(size: 14pt, weight: "bold")[*Testart*],
+      text(size: 14pt, weight: "bold")[*Beschreibung*],
+    ),
+
+    [T001],
+    [*Manuelle Tests*],
+    [Visuelle Konsistenz],
+    [Überprüfung der UI auf korrekte Darstellung und Benutzerfreundlichkeit. Tests für responsives Design und regionsspezifische Anpassungen.],
+
+    [T002],
+    [*Manuelle Tests*],
+    [Explorative Tests],
+    [Freies Testen der Anwendung durch Tester, um potenzielle Fehler und Randfälle zu identifizieren.],
+
+    [T003],
+    [*Automatisierte Tests*],
+    [E2E mit Cypress],
+    [Tab-Transaktionen: Validierung der korrekten Sichtbarkeit von Konto- und Sicherheitstransaktionen sowie der Farbkodierung der Bilanzen.],
+
+    [T004],
+    [*Automatisierte Tests*],
+    [E2E mit Cypress],
+    [Deaktivierte Tabs: Sicherstellen, dass der Transaktionstab nicht angezeigt wird, wenn deaktiviert.],
+
+    [T005],
+    [*Automatisierte Tests*],
+    [E2E mit Cypress],
+    [NRT-Transaktionen: Validierung der Suchfunktion und Anzeige der NRT-Transaktionen nach Filtern und Suchbegriffen.],
+
+    [T006],
+    [*Automatisierte Tests*],
+    [E2E mit Cypress],
+    [Filteranwendung: Sicherstellen, dass spezifische Transaktionen nach Filtern korrekt angezeigt werden.],
+
+    [T007],
+    [*Automatisierte Tests*],
+    [E2E mit Cypress],
+    [Keine Transaktionen: Überprüfung, dass keine Ergebnisse angezeigt werden, wenn Filter keine passenden Transaktionen ergeben.],
+
+    [T008],
+    [*Automatisierte Tests*],
+    [E2E mit Cypress],
+    [Filteroptionen: Validierung der Verfügbarkeit und Funktionalität aller Filteroptionen in der Benutzeroberfläche.],
+
+    [T009],
+    [*Automatisierte Tests*],
+    [E2E mit Cypress],
+    [Datenvalidierung: Sicherstellen, dass alle Transaktionsdaten korrekt geladen und dargestellt werden.],
+
+    [T010],
+    [*Automatisierte Tests*],
+    [E2E mit Cypress],
+    [Fehlerfallprüfung: Überprüfung des Verhaltens bei fehlenden oder fehlerhaften Daten.],
+
+    [T012],
+    [*Automatisierte Tests*],
+    [E2E mit Cypress],
+    [Detailansichten: Überprüfung der Vollständigkeit der Daten von den Detailansichten auf ZR-, Portfolio-, Cash- sowie Custody-Ebenen.],
+  )
+
 ]

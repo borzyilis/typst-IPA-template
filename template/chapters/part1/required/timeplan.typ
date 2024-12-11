@@ -9,7 +9,7 @@
     #place(
       top,
       dx: 10pt,
-      dy: -250pt,
+      dy: -150pt,
       image("../../../../src/images/timeplan.svg", width: 100%, height: 150%, fit: "stretch"),
     )
 

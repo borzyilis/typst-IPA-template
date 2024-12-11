@@ -74,14 +74,13 @@
   show-list-of-abbreviations: true, // Nur sichtbar, wenn tatsächlich mit `gls` oder `glspl` Abkürzungen im Text aufgerufen werden
   list-of-abbreviations: abbreviations(),
   show-list-of-figures: true,
-  show-list-of-tables: true,
+  show-list-of-tables: false,
   show-list-of-todos: true,
-  literature-and-bibliography: literature-and-bibliography(),
+  literature-and-bibliography: none,
   list-of-attachements: attachements(),
 )
 
 #heading("TEIL 1: UMFELD UND ABLAUF", numbering: none)
-#introduction()
 #organisation()
 #project_assignment()
 #timeplan()
@@ -98,4 +97,18 @@
 #realise()
 #control()
 #evaluate()
-= Schluss/Zusammenfassung/Fazit<zusammenfassung>
+
+#pagebreak()
+
+#heading("BENUTZUNG DER KI-Tools", numbering: none)
+
+Während des Projekts habe ich Chat GPT aus verschiedenen Gründen genutzt. Da die Dokumentation mit Typst #gls("Typst") strukturiert ist, konnte ich Chat GPT verwenden, um verschiedene Teile der Dokumentation zu formatieren und zu korrigieren. Dies hat mir ermöglicht, die Konsistenz und Lesbarkeit der Dokumentation zu verbessern, insbesondere bei komplexen Formatierungsaufgaben.
+
+Beim Programmieren habe ich Chat GPT hauptsächlich zum Debuggen und für Beispiele verwendet, wie der Code implementiert und verbessert werden könnte. Durch den Einsatz von Chat GPT konnte ich effizienter Lösungen für auftretende Probleme finden und meine Implementierungen optimieren. Es hat mir auch geholfen, alternative Ansätze zu evaluieren und bessere Entscheidungen bei der Codegestaltung zu treffen.
+
+Die Unterstützung durch Chat GPT trug dazu bei, Zeit zu sparen und sicherzustellen, dass sowohl der dokumentarische als auch der technische Teil des Projekts eine hohe Qualität aufweisen.
+
+
+#emph([
+  Manche Konversationen dürfen nicht geteilt werden, wenn sie Bilder inhalten.
+])
