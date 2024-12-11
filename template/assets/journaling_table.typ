@@ -2,7 +2,7 @@
   // Create the activities table
   let activities_table = table(
     stroke: none,
-    gutter: 2.5pt,
+    gutter: 1.5pt,
     columns: (4fr, 1fr, 1fr),
     fill: (x, y) => if y == 0 { gray } else { none },
     align: (x, y) => if y == 0 { horizon } else if x == 0 { left } else { center },

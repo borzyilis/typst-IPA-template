@@ -7,6 +7,7 @@
 // Teil 1
 #import "chapters/part1/introduction.typ": introduction
 #import "chapters/part1/project_assignment.typ": project_assignment
+#import "chapters/part1/required/organisation.typ": organisation
 #import "chapters/part1/required/timeplan.typ": timeplan
 #import "chapters/part1/summary.typ": summary
 #import "chapters/part1/workjournal.typ": workjournal
@@ -14,6 +15,7 @@
 // Teil 2
 #import "chapters/part2/brief_summary.typ": brief_summary
 #import "chapters/part2/inform.typ": inform
+#import "chapters/part2/plan.typ": plan
 #import "chapters/part2/decide.typ": decide
 #import "chapters/part2/realise.typ": realise
 #import "chapters/part2/control.typ": control
@@ -71,6 +73,7 @@
   outlines-indent: 1em,
   show-list-of-abbreviations: true, // Nur sichtbar, wenn tatsächlich mit `gls` oder `glspl` Abkürzungen im Text aufgerufen werden
   list-of-abbreviations: abbreviations(),
+  show-list-of-figures: true,
   show-list-of-tables: true,
   show-list-of-todos: true,
   literature-and-bibliography: literature-and-bibliography(),
@@ -79,15 +82,18 @@
 
 #heading("TEIL 1: UMFELD UND ABLAUF", numbering: none)
 #introduction()
+#organisation()
 #project_assignment()
 #timeplan()
 #workjournal()
 #summary()
 
+#pagebreak()
 #heading("TEIL 2: PROJEKT - UMSETZUNG", numbering: none)
 
 #brief_summary()
 #inform()
+#plan()
 #decide()
 #realise()
 #control()

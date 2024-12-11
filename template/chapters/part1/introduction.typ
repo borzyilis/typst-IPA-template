@@ -1,6 +1,10 @@
+#import "../../lib.typ": *
+
 #let introduction() = [
   = Projektumfeld
+  #todo("Ausfüllen")
   == Beschreibung der Abteilung
+  #todo("Ausfüllen")
   == Projektumgebung
   bestehende Systeme, Anforderungen, Einbindung in die Firmen-IT-Landschaft
   == Stakeholderübersicht

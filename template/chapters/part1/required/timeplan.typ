@@ -1,3 +1,5 @@
+#import "../../../lib.typ": *
+
 #let timeplan() = [
 
 
@@ -15,5 +17,6 @@
 
   == Meilensteine
   geplante Meilensteine
+  #todo("Anscheinend nicht nötig, muss abgeklärt werden")
 
 ]
