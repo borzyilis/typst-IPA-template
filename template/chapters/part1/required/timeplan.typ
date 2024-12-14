@@ -16,7 +16,6 @@
   ]
 
   == Meilensteine
-  geplante Meilensteine
-  #todo("Anscheinend nicht nötig, muss abgeklärt werden")
+  - (Braucht man diese oder nicht?)
 
 ]

@@ -35,7 +35,7 @@
   ),
   title: "Probe IPA",
   subtitle: "Implementierung der Mobile Features",
-  date: "29.07.2024",
+  date: "11.12.2024",
   version: none,
   thesis-compliant: false, // Setze es auf false, wenn es nur für Dokumentationen genutzt wird
 
@@ -64,20 +64,20 @@
       name: "Bank Julius Bär AG.",
       street: "Hohlstrasse 600",
       city: "Altstetten, Zürich",
-      logo: image("/typst-IPA-template/src/images/jb-logo.jpeg")
+      logo: image("../src/images/jb-logo.jpeg")
     )
-  ),
+),
 
-  // Outlines
-  depth-toc: 4,
-  outlines-indent: 1em,
-  show-list-of-abbreviations: true, // Nur sichtbar, wenn tatsächlich mit `gls` oder `glspl` Abkürzungen im Text aufgerufen werden
-  list-of-abbreviations: abbreviations(),
-  show-list-of-figures: true,
-  show-list-of-tables: false,
-  show-list-of-todos: true,
-  literature-and-bibliography: none,
-  list-of-attachements: attachements(),
+// Outlines
+depth-toc: 4,
+outlines-indent: 1em,
+show-list-of-abbreviations: true, // Nur sichtbar, wenn tatsächlich mit `gls` oder `glspl` Abkürzungen im Text aufgerufen werden
+list-of-abbreviations: abbreviations(),
+show-list-of-figures: true,
+show-list-of-tables: false,
+show-list-of-todos: true,
+literature-and-bibliography: none,
+list-of-attachements: attachements(),
 )
 
 #heading("TEIL 1: UMFELD UND ABLAUF", numbering: none)

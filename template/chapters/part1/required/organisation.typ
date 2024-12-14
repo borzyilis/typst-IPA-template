@@ -4,7 +4,7 @@
   = Projektaufbauorganisation
 
   #figure(
-    image("/typst-IPA-template/src/images/organigram.svg"),
+    image("../../../../src/images/organigram.svg"),
     caption: [Organigram],
   )
 
